@@ -27,3 +27,20 @@ body {
 .bold-text {
     font-weight: bold;
 }
+
+a {
+    color: #aeaeae;
+}
+
+a:visited {
+  color: #aeaeae; 
+}
+
+a:hover {
+    color: #ff71bf;
+}
+
+.box {
+
+}
+
