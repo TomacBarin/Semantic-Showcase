@@ -1,0 +1,29 @@
+body {
+    background-color: #181818;
+    font-family: "IBM Plex Mono";
+    color: #aeaeae;
+    margin: 0; /*Tar bort default-marginalerna*/
+}
+
+.silkscreen-large {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 100px;
+}
+
+.silkscreen-small {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.image-style {
+    border-radius: 25px;
+    border: 1px solid #aeaeae;
+}
+
+.bold-text {
+    font-weight: bold;
+}
