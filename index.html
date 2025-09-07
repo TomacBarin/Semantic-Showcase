@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Min portfolio" />
+
     <!-- Optimera sökresultat -->
     <meta
       name="description"
@@ -11,6 +11,15 @@
     />
     <title>Min Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
+    <!-- Länkade fonter -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Huvudrubrik och navigering -->
@@ -26,8 +35,8 @@
     <!-- Huvudinnehåll -->
     <main>
       <!-- Presentation av mig själv -->
-      <section>
-        <!-- Namn eller introduktion -->
+      <section id="intro" aria-label="Introduktion">
+        <!-- Introduktion -->
         <h1>Tomac Barin</h1>
       </section>
 
@@ -36,7 +45,7 @@
         <!-- Bild och lista över projekt/tekniker -->
         <img
           src="/portfolio/Wilma4_TomacBarin02_sm.jpg"
-          alt="Deskbot Wilma4 designed by Tomac Barin Jansson"
+          alt="Deskbot Wilma4, a 3D design project"
         />
         <h2>Portfolio</h2>
         <ul>
@@ -52,12 +61,12 @@
         <!-- Lista över erfarenheter eller meriter -->
         <h2>Polymath</h2>
         <ul>
-          <li><span>2015:</span> Sound design</li>
-          <li><span>2017:</span> Color grading</li>
-          <li><span>2019:</span> Portrait lighting</li>
-          <li><span>2020:</span> 3D-art</li>
-          <li><span>2023:</span> Animation</li>
-          <li><span>2025:</span> Fullstack</li>
+          <li><time>2015:</time> Sound design</li>
+          <li><time>2017:</time> Color grading</li>
+          <li><time>2019:</time> Portrait lighting</li>
+          <li><time>2020:</time> 3D-art</li>
+          <li><time>2023:</time> Animation</li>
+          <li><time>2025:</time> Fullstack</li>
         </ul>
       </section>
 
@@ -76,6 +85,11 @@
     <!-- Sidfot -->
     <footer>
       <!-- Kontaktinfo eller avslutande text -->
+      <a href="#">Tillbaka till toppen</a>
+      <!-- Notera: Jag är medveten om att en footer egentligen ska 
+       innehålla copyright samt kontaktuppgifter och dylikt; men eftersom 
+       detta är en testövning och lägger jag bara en länk tillbaka till 
+       toppen av sidan i stället -->
     </footer>
   </body>
 </html>
