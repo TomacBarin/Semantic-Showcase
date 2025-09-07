@@ -2,14 +2,30 @@ body {
     background-color: #181818;
     font-family: "IBM Plex Mono";
     color: #aeaeae;
-    margin: 0; /*Tar bort default-marginalerna*/
+    max-width: 500px;
+    margin: 0 auto;
 }
+
+.lightgrey-backgroundColor {
+    background-color: pink;
+}
+
+header, footer {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+nav, footer {
+    text-align: center;
+}
+
 
 .silkscreen-large {
   font-family: "Silkscreen", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 100px;
+  text-align: center;
 }
 
 .silkscreen-small {
@@ -17,11 +33,14 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 25px;
+  
 }
 
 .image-style {
     border-radius: 25px;
     border: 1px solid #aeaeae;
+    display: block;
+    margin: 0 auto;
 }
 
 .bold-text {
@@ -41,6 +60,19 @@ a:hover {
 }
 
 .box {
-
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 70px;
+    
 }
 
+.centered-list {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.footer-box {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+}
